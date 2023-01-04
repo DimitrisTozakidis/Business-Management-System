@@ -1,0 +1,184 @@
+html {
+	height: 100%;
+}
+
+body {
+	font-size: 12px;
+	color: #333;
+	font-family: sans-serif;
+	background: linear-gradient(#241726, #241726);
+}
+
+.ButtonAdd {
+	border-style: solid;
+	cursor: pointer;
+	display: inline-block;
+	font-size: 16px;
+	font-weight: 70;
+	line-height: 23px;
+	padding: 0 16px;
+	text-align: center;
+	color: #726573;
+	background: linear-gradient(#111100, #111100);	
+	border:1px;
+	border-radius:3px;
+	padding: 5px 10px;
+	text-align:center;
+	overflow:hidden;
+	min-width:80px;
+	margin-top:5%;
+	background: rgba(0,0,0,.5);
+	box-shadow: 0 10px 20px rgba(60,107,62,0.0);
+	border-radius: 15px;
+		 
+}
+	
+.ButtonAdd:active{
+	position: relative;
+	top: 1px;
+}
+	
+.ButtonAdd:hover{
+	background: rgba(0,0,0,0.2);		
+}
+
+.table{
+	margin-top:4%;
+	font-family: verdana, Helvetica, sans-serif;
+	font-size: 18px;
+	color: #726573;
+	background: rgba(15,0,15,.5);
+	box-shadow: 0 15px 25px rgba(102,0,102,.6);
+	border-radius: 10px;
+	border:hidden;
+	border-collapse:hidden;
+}
+
+.form-control{
+	font-size
+	
+}
+	
+.t {	
+	border:hidden;
+	border-collapse:hidden;
+}
+
+.ButtonBack {
+	border-style: solid;
+	border-width: 1px;
+	box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+	cursor: pointer;
+	display: inline-block;
+	font-size: 16px;
+	font-weight: 70;
+	line-height: 23px;
+	min-width: 40px;
+	padding: 0 16px;
+	text-align: center;
+	color: #726573;
+	background: linear-gradient(#111100, #111100);	
+	border:1px;
+	border-radius:3px;
+	padding: 3px 10px;
+	text-align:center;
+	overflow:hidden;
+	min-width:70px;
+	margin-top:15%;
+	margin-bottom:1%;
+	margin-left:94%;
+	background: rgba(0,0,0,.5);
+	box-shadow: 0 10px 20px rgba(60,107,62,0.0);
+	border-radius: 15px;		 
+}
+		
+.ButtonBack:active{
+	position: relative;
+	top: 1px;
+}
+	
+.ButtonBack:hover{
+	background: rgba(0,0,0,0.2);		
+}
+	
+.ButtonOperation{
+	border-style: none;
+	color: #FFFFFF;
+	cursor: pointer;
+	font-size: 16px;
+	line-height: 23px;
+	text-align: center;	
+	overflow:hidden;
+	background: transparent;	
+}
+		
+.ButtonOperation:active{
+	position: relative;
+	top: 1px;
+}
+	
+.ButtonOperation:hover{
+	background: rgba(0,0,0,0.2);		
+}
+	
+.btn{
+	border-width: 1px;
+	cursor: pointer;
+	font-size: 16px;
+	line-height: 23px;
+	text-align: center;
+	color: #FFFFFF;
+	box-sizing: border-box;
+	border:1px;
+	border-radius:3px;
+	text-align:center;
+	background: rgba(3,233,244,0.9);
+	border-radius: 15px;
+}
+		
+.btn:active{
+	position: relative;
+	top: 1px;
+	background: rgba(3,233,244,0.2);
+}
+	
+.btn:hover{
+	position: relative;
+	top: 1px;
+	background: rgba(3,233,244,0.2);
+}
+	
+.btn:focus{
+	position: relative;
+	top: 1px;
+	background: rgba(3,233,244,1);
+}
+	
+.navbar{
+	margin-top:25px;
+	background: linear-gradient(#241726, #241726);	
+}
+	
+.form-inline{
+	background: linear-gradient(#241726, #241726);
+	font-size: 1px;
+}
+
+.form-inline{
+	background: linear-gradient(#241726, #241726);
+	font-size: 1px;
+}
+
+.form-inline{
+	background: linear-gradient(#241726, #241726);
+	font-size: 1px;
+}
+.form-inline{
+	background: linear-gradient(#241726, #241726);
+	font-size: 1px;
+}
+
+::placeholder {
+  font-size: 14px;
+}
+
