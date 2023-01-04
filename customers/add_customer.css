@@ -1,0 +1,84 @@
+html {
+	height: 100%;
+}
+	
+body {
+	font-family:sans-serif;
+	font-size: 12px;
+	color: rgba(66, 168, 127, 0.8);
+	background: linear-gradient(#241726, #241726);
+	margin:6%;
+	padding:0;
+}
+	
+h1{
+	padding:20px;
+	color: rgba(3, 233, 244, 0.8);		
+}
+	
+input[type=text] {
+	width: 100%;
+	padding: 8px 5px;
+	margin: 8px 0;
+	box-sizing: border-box;
+	background: linear-gradient(#241726, #241726);
+	font-family:sans-serif;
+	font-size: 18px;
+	color: #03e9f4;
+}
+	
+label {
+	font-size: 28px;
+	color: rgba(3, 233, 244, 0.8);
+}	
+	
+input[type=text]::placeholder {
+	color: rgba(3, 233, 244, 0.8);
+}
+	
+.ButtonBack {
+	border-style: solid;
+	cursor: pointer;
+	display: inline-block;
+	font-size: 16px;
+	line-height: 23px;		
+	text-align: center;
+	color: #726573;
+	border:1px;
+	border-radius:3px;
+	padding: 3px 1px;
+	text-align:center;
+	overflow:hidden;
+	min-width:70px;
+	margin-top:30px;
+	margin-left:98%;
+	background: rgba(0,0,0,0.5);
+	box-shadow: 0 10px 20px rgba(60,107,62,0.0);
+	border-radius: 15px
+	 
+}
+
+.buttonBack:active {
+	background:#6dbd45;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.2, #5EA534), color-stop(1, #519327));
+	background:-moz-linear-gradient(center top, #5EA534 20%, #519327 100%);
+}
+
+.ButtonBack:active{
+	position: relative;
+	top: 1px;
+}
+	
+.ButtonBack:hover{
+	background: rgba(0,0,0,0.2);
+}
+	
+.btn{
+	color: #000000;
+	background: rgba(3,233,244,0.8);
+	border-radius: 8px;		
+}
+	
+.btn:hover{
+	background: rgba(3,233,244,0.2);
+}
